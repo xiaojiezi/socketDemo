@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		187B56191C9E94E2009AB8B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B56181C9E94E2009AB8B8 /* main.m */; };
+		187B56241C9E9577009AB8B8 /* SocketService.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B56231C9E9577009AB8B8 /* SocketService.m */; };
+		187B56271C9E95CD009AB8B8 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B56261C9E95CD009AB8B8 /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		187B56151C9E94E2009AB8B8 /* serviceDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = serviceDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		187B56181C9E94E2009AB8B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187B56221C9E9577009AB8B8 /* SocketService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketService.h; sourceTree = "<group>"; };
+		187B56231C9E9577009AB8B8 /* SocketService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketService.m; sourceTree = "<group>"; };
+		187B56251C9E95CD009AB8B8 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		187B56261C9E95CD009AB8B8 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		187B56171C9E94E2009AB8B8 /* serviceDemo */ = {
 			isa = PBXGroup;
 			children = (
+				187B56251C9E95CD009AB8B8 /* GCDAsyncSocket.h */,
+				187B56261C9E95CD009AB8B8 /* GCDAsyncSocket.m */,
 				187B56181C9E94E2009AB8B8 /* main.m */,
+				187B56221C9E9577009AB8B8 /* SocketService.h */,
+				187B56231C9E9577009AB8B8 /* SocketService.m */,
 			);
 			path = serviceDemo;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187B56271C9E95CD009AB8B8 /* GCDAsyncSocket.m in Sources */,
 				187B56191C9E94E2009AB8B8 /* main.m in Sources */,
+				187B56241C9E9577009AB8B8 /* SocketService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

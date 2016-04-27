@@ -8,10 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+#import "SocketService.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        SocketService *service = [[SocketService alloc] init];
+        [service start];
+        
+        [[NSRunLoop mainRunLoop] run];
+        
     }
     return 0;
 }
